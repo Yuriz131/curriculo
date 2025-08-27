@@ -4,3 +4,28 @@ img {
     border-radius: 50%;
     border: 3px solid rgb(0, 0, 0);
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 20px;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 48%;
+    margin-top: 10px;
+}
